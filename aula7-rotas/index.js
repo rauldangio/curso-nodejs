@@ -2,10 +2,8 @@ const express = require("express") // importando o modulo express
 const app = express(); // a função express cria uma instancia(uma cópia) da framework inteira
 
 
-
-
 app.get("/",function(req,res){
-    res.send("Funcionando")
+    res.send("Funcionando") // res é o objeto que sera usado para enviar mensagens, ou arquivos (como arquivos .html), e a funcao send() envia para mensagens para o objeto res
 })
 
 app.get("/configuracoes",function(req,res){
@@ -15,6 +13,7 @@ app.get("/configuracoes",function(req,res){
 app.get("/configuracoes/personalizando", function(req,res){
     res.send("configurando as personalizacnados")
 })
+
 /*
 criando a primeira rota
 
