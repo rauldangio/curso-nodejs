@@ -1,0 +1,34 @@
+Para se conectar ao servidor mysql:
+
+mysql -h localhost -u root -p 
+
+-h: em qual servidor ira se conectar
+
+-u: o usuario
+
+-p a senha
+
+
+Para Mostrar os bancos de dados do servidor
+
+- SHOW DATABASES;
+
+Para Criar um Banco de dado:
+
+- CREATE DATABASE <nomedobanco>;
+
+Para Entrar em banco de dados:
+
+- USE <nomedobanco>
+
+Para Mostrar Tabelas:
+
+- SHOW TABLES;
+
+Para Criar Tabelas:
+
+- ver o arquivo "teste.sql"
+
+Para ver a estrutura da tabela:
+
+- DESCRIBE <nome da tabela>
